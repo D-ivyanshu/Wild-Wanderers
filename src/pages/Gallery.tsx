@@ -1,5 +1,3 @@
-import ServiceCards from "@/components/ServiceCards";
-import Images from "@/assets/images";
 import SwipeCards from "@/components/SwipeCards";
 
 const Gallery = () => {

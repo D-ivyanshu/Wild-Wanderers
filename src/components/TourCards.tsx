@@ -1,4 +1,3 @@
-import Images from "@/assets/images";
 import { Utensils, Sun, Moon } from "lucide-react";
 import { GiJeep } from "react-icons/gi";
 

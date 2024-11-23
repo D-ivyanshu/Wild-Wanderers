@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { AnimatePresence, motion } from "framer-motion";
 import { FiAlertCircle, FiX } from "react-icons/fi";
 import { useState } from "react";
@@ -68,7 +69,7 @@ const SpringModal = ({ isOpen, setIsOpen }) => {
     defaultValues: {
       name: "",
       phno: "",
-      date: "",
+      date: null,
       requirements: "",
     },
   });

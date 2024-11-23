@@ -4,11 +4,9 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
-import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -22,7 +20,7 @@ const formSchema = z.object({
   }),
 });
 
-const EnquiryForm = ({ onPress }) => {
+const EnquiryForm = () => {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -63,7 +61,7 @@ const EnquiryForm = ({ onPress }) => {
             </FormItem>
           )}
         />
-        <button type="submit" onClick={handlePress}>
+        <button type="submit" onClick={() => {}}>
           Submit
         </button>
       </form>

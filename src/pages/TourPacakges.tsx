@@ -1,5 +1,3 @@
-import ServiceCards from "@/components/ServiceCards";
-import SwipeCards from "@/components/SwipeCards";
 import { Fade } from "react-awesome-reveal";
 import Images from "@/assets/images";
 import TourCard from "@/components/TourCards";
