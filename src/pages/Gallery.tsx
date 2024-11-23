@@ -1,0 +1,27 @@
+import ServiceCards from "@/components/ServiceCards";
+import Images from "@/assets/images";
+import SwipeCards from "@/components/SwipeCards";
+
+const Gallery = () => {
+  return (
+    <>
+      <div className="flex flex-col items-center my-6">
+        {/* Heading */}
+        <div className="tracking-wide flex flex-col justify-center items-center">
+          <h1 className="text-md lg:text-lg text-[#DF6951]">
+            Captured Moments
+          </h1>
+          <h1
+            className="text-2xl md:text-3xl text-slate-800 font-medium lg:text-4xl"
+            style={{ fontFamily: "Roboto, sans-serif" }}
+          >
+            Wildlife Wonders
+          </h1>
+        </div>
+        <SwipeCards />
+      </div>
+    </>
+  );
+};
+
+export default Gallery;
